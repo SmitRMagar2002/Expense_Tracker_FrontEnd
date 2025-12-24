@@ -6,6 +6,6 @@ export default function Page() {
   const params = useParams();
 
   return (
-    <div>This is my postsssss {params.post}</div>
+    <div>This is my post with dev {params.post}</div>
   );
 }
